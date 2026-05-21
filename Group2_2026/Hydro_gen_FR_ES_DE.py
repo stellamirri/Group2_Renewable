@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 API_KEY = "patCytbSzwwY9ZZhgner"
 
-url = "https://api.electricitymaps.com/v3/electricity-source/hydro/past-range"
+url = "https://api.electricitymaps.com/v3/power-breakdown/history"
 
 headers = {
 "auth-token": API_KEY
